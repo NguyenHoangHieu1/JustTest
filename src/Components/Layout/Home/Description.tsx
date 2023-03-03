@@ -1,6 +1,6 @@
-import props from "../../../Interfaces/Props";
-import Card from "../../UI/Card";
-import classes from "./Description.module.css";
+import props from "../../../Interfaces/Props"
+import Card from "../../UI/Card"
+import classes from "./Description.module.css"
 
 const Description: React.FC<props> = (props) => {
   return (
@@ -94,7 +94,7 @@ const Description: React.FC<props> = (props) => {
         </div>
       </section>
     </Card>
-  );
-};
+  )
+}
 
-export default Description;
+export default Description
